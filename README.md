@@ -1,21 +1,22 @@
 # Clément Roux — ENSEEIHT e-portfolio
 
-This repository contains the English-language e-portfolio for the ENSEEIHT CAM course.
+English-language portfolio built with HTML, CSS and JavaScript. Six sections present my background, engineering course, international mobility preferences, civic engagement, sports and career project.
+
+## Files
+
+- `index.html`, `style.css`, `script.js`: website source.
+- `assets/profile.png`: original portrait, displayed in a circular frame.
+- `assets/CV_Clement_Roux_FR.pdf`: original French CV.
+- `assets/CV_Clement_Roux_EN.pdf`: original English CV.
+- `assets/TIPE_Monopoly_Clement_Roux.pdf`: original TIPE presentation.
+- `assets/elevator-pitch.mp4`: original video, played using native browser controls.
+
+All five original assets were supplied by Clément Roux and added unchanged.
 
 ## GitHub Pages
 
-In **Settings → Pages**, choose **Deploy from a branch**, branch `main`, folder `/(root)`, then **Save**. The expected URL is https://clementroux74-del.github.io/E-portfolio/ once GitHub confirms deployment.
+Publish from branch `main`, folder `/(root)`. All asset paths are relative and work under `/E-portfolio/`.
 
-## Required files
+## Editing
 
-`index.html`, `style.css`, and `script.js` are in the repository root. To complete the V12 site, upload the following original files from `Portfolio_Clement_Roux_V12.zip` into an `assets/` folder at the root:
-
-- `assets/profile.png`
-- `assets/elevator-pitch.mp4`
-- `assets/CV_Clement_Roux_FR.pdf`
-- `assets/CV_Clement_Roux_EN.pdf`
-- `assets/TIPE_Monopoly_Clement_Roux.pdf`
-
-Preserve these names and paths: the website links to them directly. The media files are not present until they have been uploaded separately.
-
-The portfolio includes contact details and downloadable CVs; keep the repository public only if you want these available to everyone.
+Edit the section text in `index.html`, styling in `style.css`, and menu behaviour in `script.js`. Preserve asset filenames when replacing documents or update their references in `index.html`.
